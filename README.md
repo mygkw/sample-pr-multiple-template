@@ -14,6 +14,8 @@
 
 URLで指定する。
 
+`https://github.com/mygkw/sample-pr-multiple-template/compare/${ブランチ名}?expand=1&template=${テンプレート名}&title=${PRタイトル}`
+
 ### クエリ
 - `extend=1`
   - これを付けると最初からPR本文の入力画面になる
@@ -22,9 +24,6 @@ URLで指定する。
 - `title`
   - PRタイトルを指定する。
 
-```
-https://github.com/mygkw/sample-pr-multiple-template/compare/${ブランチ名}?expand=1&template=${テンプレート名}&title=${PRタイトル}
-```
 
 ### e.g.
 https://github.com/mygkw/sample-pr-multiple-template/compare/sample_branch1?expand=1&template=template1.md&title=title_YYYY-MM-DD
